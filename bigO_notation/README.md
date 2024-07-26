@@ -1,3 +1,3 @@
-Big O Notation -> O()
-Time Complexity - Space Complexity
+Big O Notation -> O() /n
+Time Complexity - Space Complexity /n
 https://www.bigocheatsheet.com/

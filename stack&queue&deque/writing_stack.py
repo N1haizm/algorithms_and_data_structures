@@ -1,4 +1,4 @@
-#Writing stack using Lists
+#Writing Stack using Lists
 
 class Stack():
     def __init__(self):

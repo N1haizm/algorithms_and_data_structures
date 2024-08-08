@@ -46,14 +46,29 @@ class binarySearchTree():
                 return True
         return False
 
+    def minOfNode(self, crrntNode):
+        while crrntNode.left:
+            crrntNode = crrntNode.left
+        return crrntNode.value
+    
+    def maxOfNode(self, crrntNode):
+        while crrntNode.right:
+            crrntNode = crrntNode.right
+        return crrntNode.value
+
+
 
             
 myTree = binarySearchTree()
 print(myTree.insert(5))
 print(myTree.insert(15))
 print(myTree.insert(10))
-print(myTree.contains(10))
-print(myTree.contains(6))
+print(myTree.insert(30))
+print(myTree.insert(31))
+print(myTree.insert(6))
+
+print(myTree.minOfNode(myTree.root))
+print(myTree.maxOfNode(myTree.root))
             
 
 

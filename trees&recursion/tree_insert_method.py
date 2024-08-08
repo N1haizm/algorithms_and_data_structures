@@ -34,12 +34,26 @@ class binarySearchTree():
                     return True
 
                 tempN = tempN.right
+
+    def contains(self, value):
+        temp = self.root
+        while temp:
+            if value < temp.value:
+                temp = temp.left
+            elif value > temp.value:
+                temp = temp.right
+            else:
+                return True
+        return False
+
+
             
 myTree = binarySearchTree()
 print(myTree.insert(5))
 print(myTree.insert(15))
-print(myTree.insert(15))
 print(myTree.insert(10))
+print(myTree.contains(10))
+print(myTree.contains(6))
             
 
 

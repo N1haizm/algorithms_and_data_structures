@@ -56,8 +56,6 @@ class binarySearchTree():
             crrntNode = crrntNode.right
         return crrntNode.value
 
-
-
             
 myTree = binarySearchTree()
 print(myTree.insert(5))
@@ -67,7 +65,7 @@ print(myTree.insert(30))
 print(myTree.insert(31))
 print(myTree.insert(6))
 
-print(myTree.minOfNode(myTree.root))
+print(myTree.minOfNode(myTree.root.right))
 print(myTree.maxOfNode(myTree.root))
             
 

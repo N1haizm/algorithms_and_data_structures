@@ -126,9 +126,18 @@ myTree.insert(72)
 myTree.insert(59)
 myTree.insert(95)
 myTree.insert(24)
+myTree.insert(100)
+myTree.insert(92)
+myTree.insert(62)
+myTree.insert(54)
+myTree.insert(30)
+myTree.insert(20)
+myTree.insert(9)
+myTree.insert(3)
 
 print(myTree.DFSpreOrder())
 print(myTree.DFSpostOrder())
+print(myTree.DFSinOrder())
 
 
         

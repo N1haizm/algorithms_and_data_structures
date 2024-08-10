@@ -1,6 +1,6 @@
 '''
 This code is copy of the code in ./tree&recursion/tree_insert_method.py . 
-Plus, BFS method added to code
+Plus, BFS method added to code.
 '''
 
 class Node():
